@@ -1,7 +1,7 @@
  OVH API Bash client
 ================
 
-A bash client for OVH API (https://api.ovh.com/)
+A bash client for OVH API (https://api.ovh.com/) from FreeBSD, forked from https://github.com/denouche/ovh-api-bash-client.
 
 Initialize
 ----------
