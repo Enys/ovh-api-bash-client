@@ -135,7 +135,7 @@ updateTime()
 updateSignData()
 {
     SIGDATA="$OVH_APP_SECRET+$OVH_CONSUMER_KEY+$1+${API_URLS[$TARGET]}$2+$3+$TIME"
-    SIG='$1$'$(echo -n $SIGDATA | sha1sum - | cut -d' ' -f1)
+    SIG='$1$'$(echo -n $SIGDATA | sha - | cut -d' ' -f1)
 }
 
 help()
